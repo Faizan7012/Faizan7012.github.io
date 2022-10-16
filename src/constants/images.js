@@ -18,13 +18,14 @@ import about04 from "../assets/about04.png";
 import circle from "../assets/circle.svg";
 import logo from "../assets/logo.png";
 import faizan from "../assets/faizan.png"
-
+const chakra = 'https://th.bing.com/th/id/OIP.DNOiZZYIxgQJI35MjyJQTwAAAA?w=119&h=128&c=7&r=0&o=5&pid=1.7'
 
 export default {
   email,
   mobile,
   api,
   css,
+  chakra,
   git,
   html,
   javascript,
