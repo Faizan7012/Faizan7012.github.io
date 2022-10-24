@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b39c612.css",
-    "main.js": "/static/js/main.d70f9f69.js",
+    "main.css": "/static/css/main.e142f386.css",
+    "main.js": "/static/js/main.973e604a.js",
     "static/media/sparkAmerica.png": "/static/media/sparkAmerica.474aa56fde9004d35c19.png",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
@@ -21,11 +21,11 @@
     "static/media/git.png": "/static/media/git.a54d3fa44e02f2f61e69.png",
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.8b39c612.css.map": "/static/css/main.8b39c612.css.map",
-    "main.d70f9f69.js.map": "/static/js/main.d70f9f69.js.map"
+    "main.e142f386.css.map": "/static/css/main.e142f386.css.map",
+    "main.973e604a.js.map": "/static/js/main.973e604a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b39c612.css",
-    "static/js/main.d70f9f69.js"
+    "static/css/main.e142f386.css",
+    "static/js/main.973e604a.js"
   ]
 }

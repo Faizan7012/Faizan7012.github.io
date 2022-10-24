@@ -131,6 +131,11 @@
 .footer-love{
   color: #90a0d9;
   font-size: 30px;
+   @media screen and (max-width:768px) {
+         font-size: 10px;
+         text-align: center;
+   }
+
 }
 
 .app__social_2 {
@@ -143,7 +148,8 @@
   gap:20px;
  
   @media screen and (max-width: 768px){
-      width:100%
+      width:100%;
+      font-size: 20px;
   }
 
   div{
