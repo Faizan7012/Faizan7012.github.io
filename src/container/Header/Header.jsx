@@ -36,6 +36,7 @@ const Header = () => (
           <p className="p-text">Full-Stack</p>
           <p className="p-text">Developer</p>
         </div>
+   
       </div>
     </motion.div>
 

@@ -128,3 +128,55 @@
     margin: 1rem 0;
   }
 }
+.footer-love{
+  color: #90a0d9;
+  font-size: 30px;
+}
+
+.app__social_2 {
+  width: 700px;
+  margin: auto;
+  display: flex;
+  font-size: 40px;
+  justify-content: space-between;
+  align-items: center;
+  gap:20px;
+ 
+  @media screen and (max-width: 768px){
+      width:100%
+  }
+
+  div{
+    cursor: pointer;
+  }
+  a{
+    text-decoration: none;
+    color:#90a0d9;
+    transition: all 0.2s ease-in-out;
+  }
+
+}
+
+.soc-1-icon:hover{
+  color:#23283e;
+  font-size: 50px;
+
+}
+.soc-2-icon:hover{
+  color:blue;
+  font-size: 50px;
+
+
+}
+.soc-3-icon:hover{
+  color:orangered;
+  font-size: 50px;
+
+
+}
+.soc-4-icon:hover{
+  color:rgb(37, 37, 175);
+  font-size: 50px;
+  
+ 
+}

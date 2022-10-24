@@ -1,0 +1,27 @@
+.mainsection {
+    width: 100%;
+  }
+  
+  .mainsection > :nth-child(1) {
+    margin-bottom: 2em;
+  }
+  
+  .vertical-timeline-element-subtitle {
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    color:#bdbddd;
+    line-height: 1.2;
+  }
+  
+  .vertical-timeline-element-title {
+    font-size: 1.1em;
+    color: #90a0d9;
+  }
+
+  .section__title{
+    text-align: center;
+  }
+
+  p{
+    color:#bdbddd;
+  }

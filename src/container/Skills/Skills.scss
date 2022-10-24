@@ -9,7 +9,8 @@
   margin-top: 3rem;
 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  flex-wrap: wrap;
 
   @media screen and (max-width: 900px) {
     width: 100%;
@@ -172,3 +173,22 @@
 .head-text{
   color: white;
 }
+
+.git-stats{
+  display: flex;
+  gap:20px;
+  flex-direction: row;
+  @media screen and (max-width: 900px) {
+    display: flex;
+    flex-direction: column;
+    
+    img{
+      max-width: 90%;
+      margin: auto;
+    }
+  }
+
+
+
+}
+
