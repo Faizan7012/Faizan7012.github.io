@@ -43,7 +43,7 @@ const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://codecov-clone.netlify.app/"
+                  href="https://codecov-ashen.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
