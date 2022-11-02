@@ -18,7 +18,7 @@ const Navbar = () => {
           <li className="app__flex p-text" key={`link-${item}`}>
             <div />
             {
-                    item==='resume'?  <a target='_blank' href='https://drive.google.com/file/d/1S6T4PG48oJfspjpAi4s-Gtxz4hN1He5Z/view?usp=sharing' onClick={() => setToggle(false)}>
+                    item==='resume'?  <a target='_blank' href='https://drive.google.com/file/d/1o_K4f373ozC6cqec2mJxMtHfpSkfSTpk/view?usp=share_link' onClick={() => setToggle(false)}>
                     {item}
                   </a>:<a href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}
@@ -42,7 +42,7 @@ const Navbar = () => {
               {["home", "about", "Projects", "skills", "contact","resume"].map((item) => (
                 <li key={item}>
                   {
-                    item==='resume'?  <a target='_blank' href='https://drive.google.com/file/d/1o_K4f373ozC6cqec2mJxMtHfpSkfSTpk/view?usp=sharing' onClick={() => setToggle(false)}>
+                    item==='resume'?  <a target='_blank' href='https://drive.google.com/file/d/1o_K4f373ozC6cqec2mJxMtHfpSkfSTpk/view?usp=share_link' onClick={() => setToggle(false)}>
                     {item}
                   </a>:<a href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}
