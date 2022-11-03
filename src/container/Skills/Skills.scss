@@ -44,23 +44,20 @@
   text-align: center;
   margin: 1rem;
   padding: 10px 15px;
+  box-shadow: white 0px 2px 4px;
   border-radius: 10px;
   cursor: pointer;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  transition: all 0.5s ease 0s;
+
 
   div {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-color: #fef4f5;
-
-    img {
-      width: 50%;
-      height: 50%;
-  
+   
+    svg {
+      font-size: 8vh;
+      color: #90a0d9;
     }
 
 
@@ -165,9 +162,10 @@
 }
 
 .app__skills-item:hover{
-  background-color:#6b7688;
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+  border: 1px solid #90a0d9;
+
 }
 
 .head-text{

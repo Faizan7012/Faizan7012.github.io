@@ -4,33 +4,240 @@ import ReactTooltip from "react-tooltip";
 import Githubcalendar from "react-github-calendar";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import "./Skills.scss";
-import {data} from "./skilldata";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { FaReact, FaNodeJs } from "react-icons/fa";
+import {
+  SiRedux,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiMaterialui,
+  SiChakraui,
+  SiExpress,
+  SiNetlify,
+  SiVercel,
+  SiPostman,
+} from "react-icons/si";
+import { DiMongodb, DiHeroku } from "react-icons/di";
+import { VscGithub } from "react-icons/vsc";
+import { BsBootstrap } from "react-icons/bs";
 const Skills = () => {
   AOS.init();
   return (
-    <>
+   <>
       <h2 className="head-text" data-aos="fade-right">My Skills</h2>
 
       <div className="app__skills-container" data-aos="fade-right">
         <motion.div className="app__skills-list">
-          {data.map((skill) => (
-            <motion.div
+        <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
               className="app__skills-item app__flex"
-              key={skill.name}
             >
               <div
                 className="app__flex"
                 style={{ backgroundColor: 'none' }}
               >
-                <img src={skill.imgUrl} alt={skill.name} />
+                <SiJavascript />
               </div>
-              <p className="p-text">{skill.name}</p>
+              <p className="p-text">JavaScript</p>
             </motion.div>
-          ))}
+        <motion.div
+              whileInView={{ opacity: [0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="app__skills-item app__flex"
+            >
+              <div
+                className="app__flex"
+                style={{ backgroundColor: 'none' }}
+              >
+                <SiHtml5 />
+              </div>
+              <p className="p-text">HTML</p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: [0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="app__skills-item app__flex"
+            >
+              <div
+                className="app__flex"
+                style={{ backgroundColor: 'none' }}
+              >
+                <SiCss3 />
+              </div>
+              <p className="p-text">CSS</p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: [0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="app__skills-item app__flex"
+            >
+              <div
+                className="app__flex"
+                style={{ backgroundColor: 'none' }}
+              >
+                <FaReact />
+              </div>
+              <p className="p-text">React</p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: [0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="app__skills-item app__flex"
+            >
+              <div
+                className="app__flex"
+                style={{ backgroundColor: 'none' }}
+              >
+                <SiRedux />
+              </div>
+              <p className="p-text">Redux</p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: [0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="app__skills-item app__flex"
+            >
+              <div
+                className="app__flex"
+                style={{ backgroundColor: 'none' }}
+              >
+                <SiExpress />
+              </div>
+              <p className="p-text">Express</p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: [0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="app__skills-item app__flex"
+            >
+              <div
+                className="app__flex"
+                style={{ backgroundColor: 'none' }}
+              >
+                <FaNodeJs />
+              </div>
+              <p className="p-text">Nodejs</p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: [0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="app__skills-item app__flex"
+            >
+              <div
+                className="app__flex"
+                style={{ backgroundColor: 'none' }}
+              >
+                <DiMongodb />
+              </div>
+              <p className="p-text">MongoDB</p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: [0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="app__skills-item app__flex"
+            >
+              <div
+                className="app__flex"
+                style={{ backgroundColor: 'none' }}
+              >
+                <SiChakraui />
+              </div>
+              <p className="p-text">Chakra UI</p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: [0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="app__skills-item app__flex"
+            >
+              <div
+                className="app__flex"
+                style={{ backgroundColor: 'none' }}
+              >
+                <SiMaterialui />
+              </div>
+              <p className="p-text">Material UI</p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: [0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="app__skills-item app__flex"
+            >
+              <div
+                className="app__flex"
+                style={{ backgroundColor: 'none' }}
+              >
+                <BsBootstrap />
+              </div>
+              <p className="p-text">Bootstrap</p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: [0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="app__skills-item app__flex"
+            >
+              <div
+                className="app__flex"
+                style={{ backgroundColor: 'none' }}
+              >
+                <SiPostman />
+              </div>
+              <p className="p-text">Postman</p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: [0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="app__skills-item app__flex"
+            >
+              <div
+                className="app__flex"
+                style={{ backgroundColor: 'none' }}
+              >
+                <VscGithub />
+              </div>
+              <p className="p-text">GitHub</p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: [0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="app__skills-item app__flex"
+            >
+              <div
+                className="app__flex"
+                style={{ backgroundColor: 'none' }}
+              >
+                <SiNetlify />
+              </div>
+              <p className="p-text">Netlify</p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: [0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="app__skills-item app__flex"
+            >
+              <div
+                className="app__flex"
+                style={{ backgroundColor: 'none' }}
+              >
+                <SiVercel />
+              </div>
+              <p className="p-text">Vercel</p>
+            </motion.div>
+            <motion.div
+              whileInView={{ opacity: [0, 1] }}
+              transition={{ duration: 0.5 }}
+              className="app__skills-item app__flex"
+            >
+              <div
+                className="app__flex"
+                style={{ backgroundColor: 'none' }}
+              >
+                <DiHeroku />
+              </div>
+              <p className="p-text">Heroku</p>
+            </motion.div>
         </motion.div>
       </div>
       <br /><br />
