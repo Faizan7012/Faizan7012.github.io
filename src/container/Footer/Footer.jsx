@@ -59,7 +59,7 @@ const Footer = () => {
           <br />
 
 
-          <h3 class="footer-love">Made with ❤ By Faizan Alam</h3>
+          <h3 class="footer-love">Made with<span className="footer_heart"> ❤ </span>By Faizan Alam</h3>
 
     </>
   );

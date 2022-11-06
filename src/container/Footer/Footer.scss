@@ -7,6 +7,9 @@
     flex-direction: column;
   }
 }
+.footer_heart{
+  color: red;
+}
 
 .app__footer-cards {
   width: 60%;
@@ -139,17 +142,16 @@
 }
 
 .app__social_2 {
-  width: 700px;
+  width: 500px;
   margin: auto;
   display: flex;
-  font-size: 40px;
+  font-size: 30px;
   justify-content: space-between;
   align-items: center;
-  gap:20px;
- 
+  gap:20px; 
   @media screen and (max-width: 900px){
       width:100%;
-      font-size: 30px;
+      font-size: 20px;
   }
 
   div{
@@ -165,24 +167,18 @@
 
 .soc-1-icon:hover{
   color:#23283e;
-  font-size: 50px;
 
 }
 .soc-2-icon:hover{
   color:blue;
-  font-size: 50px;
 
 
 }
 .soc-3-icon:hover{
   color:orangered;
-  font-size: 50px;
 
 
 }
 .soc-4-icon:hover{
   color:rgb(37, 37, 175);
-  font-size: 50px;
-  
- 
 }

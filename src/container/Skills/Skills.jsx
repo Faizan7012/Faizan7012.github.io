@@ -266,10 +266,11 @@ const Skills = () => {
         GitHub Stats
       </h2><br /><br />
     </div>
+    
     <div className="git-stats" data-aos="fade-right">
     <img alt="Faizan Alam's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Faizan7012&show_icons=true&count_private=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117" />
     <img alt="Faizan7012's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Faizan7012&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" />
-     </div>
+    </div>
 
     </>
   );

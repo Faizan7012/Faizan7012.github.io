@@ -9,9 +9,9 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <button className="name_btn">
+        {/* <button className="name_btn"> */}
         <h6 className="name-tag">Faizan Alam</h6>
-        </button>
+        {/* </button> */}
       </div>
       <ul className="app__navbar-links">
         {["home", "about", "Projects", "skills", "contact","resume"].map((item) => (
