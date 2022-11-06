@@ -1,3 +1,8 @@
+.name_btn{
+  background-color:#90a0d9;
+  color: aliceblue;
+}
+
 .app__navbar {
   width: 100%;
 
@@ -6,7 +11,8 @@
   align-items: center;
 
   padding: 1rem 2rem;
-  background: rgba(255, 255, 255, 0.25);
+  // background: rgba(255, 255, 255, 0.25);
+  background-color: black;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);

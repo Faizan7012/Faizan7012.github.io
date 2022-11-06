@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <button className="name_btn">
-        <h5 className="name-tag">Faizan Alam</h5>
+        <h6 className="name-tag">Faizan Alam</h6>
         </button>
       </div>
       <ul className="app__navbar-links">
