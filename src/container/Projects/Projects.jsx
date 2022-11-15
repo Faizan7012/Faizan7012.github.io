@@ -1,10 +1,13 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact } from "react-icons/fa";
+import { FaReact,FaNodeJs } from "react-icons/fa";
 import {
   SiHtml5,
   SiCss3,
-  SiChakraui
+  SiChakraui,
+  SiRedux,
+  SiExpress,
+  SiMongodb
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import AOS from 'aos';
@@ -12,8 +15,7 @@ import 'aos/dist/aos.css';
 
 
 import { AppWrap, MotionWrap } from "../../wrapper";
-import { codecov,shopify,todo,weather,spark } from "./Images/image";
-
+import { codecov,shopify,weather,spark ,aT} from "./Images/image";
 const Projects = () => {
   AOS.init();
   return (
@@ -22,6 +24,50 @@ const Projects = () => {
         <h2 className="section__title different" data-aos="fade-right">
           Projects
         </h2>
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">               
+                <img src={aT} alt="Codecov" />                
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Activity Tracker</h2>
+              <p>
+              First full stack project . Which help us to keep track of time that we spend our task.
+              </p>
+              <div>
+                <FaReact />
+                <SiHtml5 />
+                <IoLogoJavascript />
+                <SiRedux />
+                <SiChakraui />
+                <SiExpress />
+                <SiMongodb />
+              </div>
+              <div>
+                <a
+                  href="https://activity-tracker-orpin.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/Faizan7012/frightening-river-6696.git"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
@@ -126,9 +172,6 @@ const Projects = () => {
               <SiHtml5 />
                 <SiCss3 />
                 <IoLogoJavascript />
-                {/* <SiNodedotjs />
-                <SiExpress />
-                <SiMongodb /> */}
               </div>
               <div>
                 <a
@@ -186,49 +229,6 @@ const Projects = () => {
                 </a>
                 <a
                   href="https://github.com/Faizan7012/Weather-App.git"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline">
-                    View Code
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="projects_container">
-          <div className="project">
-            <div className="project_videocontainer">
-              <div data-aos="fade-right">
-                <img
-                  src={todo}
-                  alt="ToDo-App"
-                />
-              </div>
-            </div>
-            <div className="project_information" data-aos="fade-right">
-              <h2>TODO App</h2>
-              <p>
-               Responsive Vanilla JS web app to add and delete Todo. 
-              </p>
-              <div>
-                <SiHtml5 />
-                <SiCss3 />
-                <IoLogoJavascript />
-              </div>
-              <div>
-                <a
-                  href="https://legendary-selkie-183355.netlify.app"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/Faizan7012/Todo-App.git"
                   target="_blank"
                   rel="noreferrer"
                 >

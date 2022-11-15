@@ -126,16 +126,4 @@
       flex-basis: 60%;
     }
   }
-/* 
-  @media (min-width: 600px) and (min-width: 900px) {
-    .project {
-      flex-direction: column;
-    }
-    .project_videocontainer {
-      flex-basis: 40%;
-    }
-    .project_information {
-      flex-basis: 60%;
-    }
-  } */
   

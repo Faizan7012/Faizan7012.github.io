@@ -9,7 +9,6 @@ import node from "../assets/node.png";
 import react from "../assets/react.png";
 import redux from "../assets/redux.png";
 import typescript from "../assets/typescript.png";
-
 import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
 import about03 from "../assets/about03.png";
@@ -39,5 +38,5 @@ export default {
   about04,
   circle,
   logo,
-  faizan
+  faizan,
 };
