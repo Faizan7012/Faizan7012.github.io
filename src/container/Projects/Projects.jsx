@@ -214,12 +214,13 @@ const Projects = () => {
               </p>
               <div>               
                 <SiHtml5 />
-                <SiCss3 />
                 <IoLogoJavascript/>
+                <FaReact />
+                <SiChakraui />
               </div>
               <div>
                 <a
-                  href="https://superb-mochi-12c0cc.netlify.app"
+                  href="https://app-blush-two.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -228,7 +229,7 @@ const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/Faizan7012/Weather-App.git"
+                  href="https://github.com/Faizan7012/weather-app.git"
                   target="_blank"
                   rel="noreferrer"
                 >
