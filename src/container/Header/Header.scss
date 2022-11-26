@@ -201,3 +201,19 @@ a{
   text-decoration: none;
   list-style-type: none;
 }
+.download_cv{
+  display: flex;
+  align-items:center;
+  gap:20px;
+  margin-top:40px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.p-text-resume{
+  font-weight: 700;
+}
+.resume-download-icon{
+  text-decoration: none;
+  list-style-type: none;
+  color:yellow
+}

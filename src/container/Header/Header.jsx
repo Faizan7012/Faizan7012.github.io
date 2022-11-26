@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 
 import { AppWrap } from "../../wrapper";
 import { images } from "../../constants";
+import ResumePDF from './Faizan_Alam_Resume.pdf';
+import {AiOutlineCloudDownload} from 'react-icons/ai'
 import "./Header.scss";
 
 const scaleVariants = {
@@ -36,7 +38,10 @@ const Header = () => (
           <p className="p-text">Full-Stack</p>
           <p className="p-text">Developer</p>
         </div>
-   
+        <a className="download_cv" href={`${ResumePDF}`} download={'Faizan_Alam_Resume.pdf'}>
+        <AiOutlineCloudDownload className="resume-download-icon" fontSize='30px'/> 
+        <p className="p-text-resume">Resume</p>
+        </a>
       </div>
     </motion.div>
 
