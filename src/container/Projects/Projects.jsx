@@ -10,28 +10,25 @@ import {
   SiMongodb
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { codecov,shopify,weather,spark ,aT} from "./Images/image";
 const Projects = () => {
-  AOS.init();
   return (
     <>
       <div className="section">
-        <h2 className="section__title different" data-aos="fade-right">
+        <h2 className="section__title different">
           Projects
         </h2>
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
-              <div data-aos="fade-right">               
+              <div>               
                 <img src={aT} alt="Codecov" />                
               </div>
             </div>
-            <div className="project_information" data-aos="fade-right">
+            <div className="project_information">
               <h2>Activity Tracker</h2>
               <p>
               First full stack project . Which help us to keep track of time that we spend our task.
@@ -71,11 +68,11 @@ const Projects = () => {
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
-              <div data-aos="fade-right">               
+              <div>               
                 <img src={codecov} alt="Codecov" />                
               </div>
             </div>
-            <div className="project_information" data-aos="fade-right">
+            <div className="project_information">
               <h2>Codecov - Clone</h2>
               <p>
               Codecov is a code analysis tool with which users can group, merge, archive, and compare coverage reports.
@@ -113,11 +110,11 @@ const Projects = () => {
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
-              <div data-aos="fade-right">
+              <div>
                 <img src={shopify} alt="Shopify" />
               </div>
             </div>
-            <div className="project_information" data-aos="fade-right">
+            <div className="project_information">
               <h2>Shopify - Clone</h2>
               <p>
                 Fully responsive website with HTML, CSS, JavaScript and React. Main
@@ -156,14 +153,14 @@ const Projects = () => {
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
-              <div data-aos="fade-right">
+              <div>
                 <img
                   src={spark}
                   alt="sparkAmerica"
                 />
               </div>
             </div>
-            <div className="project_information" data-aos="fade-right">
+            <div className="project_information">
               <h2>sparkAmerica Clone </h2>
               <p>
                 Fully responsive website built with HTML, CSS, JavaScript and other CSS Libraries.
@@ -199,14 +196,14 @@ const Projects = () => {
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
-              <div data-aos="fade-right">
+              <div>
                 <img
                   src={weather}
                   alt="Weather-App"
                 />
               </div>
             </div>
-            <div className="project_information" data-aos="fade-right">
+            <div className="project_information">
               <h2>Weather App</h2>
               <p>
                 Fully responsive project to get the weather of a particular location built using JavaScript and APIs.

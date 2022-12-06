@@ -15,7 +15,7 @@ export const Timeline = () => {
   return (
     <>
       <div className="section mainsection">
-        <h2 className="section__title" data-aos="fade-right">
+        <h2 className="section__title" >
           My <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
@@ -36,17 +36,17 @@ export const Timeline = () => {
           >
             <h3
               className="vertical-timeline-element-title"
-              data-aos="fade-right"
+              
             >
               Student
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
+              
             >
               Masai School (Remote)
             </h4>
-            <p data-aos="fade-right">
+            <p >
               Learning Full Stack Web Development to<br />build the career in tech
             </p>
           </VerticalTimelineElement>
@@ -67,17 +67,17 @@ export const Timeline = () => {
           >
             <h3
               className="vertical-timeline-element-title"
-              data-aos="fade-right"
+              
             >
              
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
+              
             >
                 Higher Secondary School Certificate - Science
             </h4>
-            <p data-aos="fade-right">
+            <p >
                Usman Janta Inter College<br />Amroha, Uttar Pradesh
             </p>
           </VerticalTimelineElement>
@@ -99,16 +99,16 @@ export const Timeline = () => {
           >
             <h3
               className="vertical-timeline-element-title"
-              data-aos="fade-right"
+              
             >
                 Highschool Metric
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
+              
             >
             </h4>
-            <p data-aos="fade-right">
+            <p >
               S.Q Higher College<br />Amroha, Uttar Pradesh
             </p>
           </VerticalTimelineElement>

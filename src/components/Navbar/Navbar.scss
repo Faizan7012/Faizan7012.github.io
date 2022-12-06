@@ -90,6 +90,7 @@
   width: 35px;
   height: 35px;
   border-radius: 50%;
+  margin-right: 15px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -168,9 +169,13 @@
     @media screen and (min-width: 900px) {
       display: none;
     }
+
   }
 
   @media screen and (min-width: 900px) {
     display: none;
   }
+}
+
+@media screen and (min-width: 400px) {
 }

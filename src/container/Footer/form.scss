@@ -1,0 +1,50 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    input{
+        padding: 20px 10px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        font-size: 18px;
+        margin-top: 7px;
+        font-weight: 500;
+        border: none;
+        box-shadow: white 0px 2px 4px;
+
+        &:focus{
+            outline: none;
+        }
+       
+    }
+    @media screen and (max-width: 768px) {
+        width:300px
+     }
+}
+
+.required_lable{
+    color: red;
+    margin-left: 5px;
+}
+.send_btn{
+    padding: 14px 10px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        font-size: 20px;
+        margin-top: 7px;
+        font-weight: 500;
+        border: none;
+        color:cornflowerblue;
+        box-shadow: white 0px 2px 4px;
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap:20px
+        }
+}
+.after_massage{
+    text-align: center;
+    font-weight: 500;
+
+}

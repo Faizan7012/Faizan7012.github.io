@@ -1,3 +1,7 @@
+.section__title{
+  text-align: center;
+}
+
 .projects_container {
     width: 100%;
     margin: 0 auto;
@@ -111,6 +115,10 @@
   }
    .section__title{
     font-size: 40px;
+   }
+   a{
+    text-decoration: none;
+    list-style-type: none;
    }
   
   
