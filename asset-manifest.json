@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8395dfb1.css",
-    "main.js": "/static/js/main.05ce3f9e.js",
+    "main.js": "/static/js/main.e06ec967.js",
     "static/media/sparkAmerica.png": "/static/media/sparkAmerica.474aa56fde9004d35c19.png",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
@@ -24,10 +24,10 @@
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "main.8395dfb1.css.map": "/static/css/main.8395dfb1.css.map",
-    "main.05ce3f9e.js.map": "/static/js/main.05ce3f9e.js.map"
+    "main.e06ec967.js.map": "/static/js/main.e06ec967.js.map"
   },
   "entrypoints": [
     "static/css/main.8395dfb1.css",
-    "static/js/main.05ce3f9e.js"
+    "static/js/main.e06ec967.js"
   ]
 }
