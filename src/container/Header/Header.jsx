@@ -28,7 +28,7 @@ const Header = () => (
         <div className="intro_desc">
           <p className="hello">
           <span>👋  </span>
-            Hey ... Hii !
+           Hello
           </p><br /><br /><br />
            <p>
            I'm Faizan Alam, a Full Stack Web Developer who loves solving problems and
