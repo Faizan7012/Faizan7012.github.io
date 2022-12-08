@@ -206,7 +206,7 @@ const Projects = () => {
             <div className="project_information">
               <h2>Weather App</h2>
               <p>
-                Fully responsive project to get the weather of a particular location built using JavaScript and APIs.
+                Fully responsive project to get the weather of a particular location built using React and APIs.
                 Features : Button for Searching The location, Details such as temperature wind speed will be shown along with 7 days forcat, etc.
               </p>
               <div>               

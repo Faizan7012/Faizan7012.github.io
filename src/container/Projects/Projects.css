@@ -10,7 +10,7 @@
   .project {
     width: 100%;
     margin: 6% 0% 6% 0%;
-    box-shadow: rgba(0,0,0,0.16) 0px 10px 36px 0px,rgba(0,0,0,0.06) 0px 0px 0px 1px;
+    border: none;
     display: flex;
     border-radius: 30px;
     transition: all 0.5s ease 0s;
@@ -18,8 +18,6 @@
   .project:hover {
     transform: scale(1.04);
     overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
-      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   }
   .project_videocontainer {
     flex-basis: 65%;
@@ -32,8 +30,11 @@
   .project_videocontainer > div {
     width: 90%;
     height: 90%;
-    border: 10px solid #90a0d9;
-    border-radius: 30px;
+    box-shadow: white 0px 2px 4px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+
   }
   .project_videocontainer > div > img {
     width: 100%;
@@ -45,7 +46,8 @@
 }
 .btn--outline {
     color: #90a0d9;
-    border: 2px solid #90a0d9;
+    box-shadow: white 0px 2px 4px;
+    border: none;
     position: relative;
     overflow: hidden;
     z-index: 1;
