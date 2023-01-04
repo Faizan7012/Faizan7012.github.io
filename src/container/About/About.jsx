@@ -1,12 +1,7 @@
-import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
-
+import React from "react";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import "./About.scss";
-import { urlFor, client } from "../../client";
 import { Timeline } from "./timeline";
-import { abouts } from "./data";
-import 'aos/dist/aos.css';
 const About = () => {
 
   return (

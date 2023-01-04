@@ -1,6 +1,6 @@
 .intro{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap:120px;
   width: 100%;
   margin: auto;
@@ -49,9 +49,18 @@
   color:yellow
 }
 
-@media screen and (min-width: 950px) {
+.type-writer{
+  margin-left: -10px;
+  font-size: 40px;
+  color: #bdbddd;
+}
+
+@media screen and (max-width: 950px) {
   .intro{
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
+  }
+  .type-writer{
+    font-size: 20px;
   }
 }

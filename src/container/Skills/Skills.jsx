@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-import ReactTooltip from "react-tooltip";
 import Githubcalendar from "react-github-calendar";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import "./Skills.scss";

@@ -7,7 +7,7 @@ import About from "./container/About/About";
 const App = () => {
   return (
     <div className="app">
-     <Navbar />
+      <Navbar />
       <Header />
       <About />
       <Skills />

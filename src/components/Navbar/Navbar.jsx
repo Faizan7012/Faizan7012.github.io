@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 import "./Navbar.scss";
-import ResumePDF from './Faizan_Alam_Resume.pdf';
-
+const resumeDrive = 'https://drive.google.com/file/d/1fMgV-LJlbMgB72OAd54AQvKlHNqBfcoE/view?usp=sharing'
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -13,11 +12,11 @@ const Navbar = () => {
         <h6 className="name-tag">Faizan Alam</h6>
       </div>
       <ul className="app__navbar-links">
-        {["home", "about", "Projects", "skills", "contact","resume"].map((item) => (
+        {["home", "about", "skills","Projects", "contact","resume"].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
             <div />
             {
-                    item==='resume'?  <a target='_blank' href={`${ResumePDF}`} onClick={() => setToggle(false)}>
+                    item==='resume'?  <a target='_blank' rel="noreferrer" href={resumeDrive} onClick={() => setToggle(false)}>
                     {item}
                   </a>:<a href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}
@@ -38,10 +37,10 @@ const Navbar = () => {
           >
             <HiX onClick={() => setToggle(false)} />
             <ul>
-              {["home", "about", "Projects", "skills", "contact","resume"].map((item) => (
+              {["home", "about", "skills","Projects", "contact","resume"].map((item) => (
                 <li key={item}>
                   {
-                    item==='resume'?  <a target='_blank' href={`${ResumePDF}`}  onClick={() => setToggle(false)}>
+                    item==='resume'?  <a target='_blank' rel="noreferrer" href={resumeDrive}  onClick={() => setToggle(false)}>
                     {item}
                   </a>:<a href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}

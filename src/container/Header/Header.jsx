@@ -1,22 +1,10 @@
 import React from "react";
-import { motion } from "framer-motion";
-
 import { AppWrap } from "../../wrapper";
 import { images } from "../../constants";
 import ResumePDF from './Faizan_Alam_Resume.pdf';
 import {AiOutlineCloudDownload} from 'react-icons/ai'
+import Typewriter from 'typewriter-effect'
 import "./Header.scss";
-
-const scaleVariants = {
-  whileInView: {
-    scale: [0, 1],
-    opacity: [0, 1],
-    transition: {
-      duration: 1,
-      ease: "easeInOut",
-    },
-  },
-};
 
 const Header = () => (
        <div className="intro">
@@ -27,11 +15,28 @@ const Header = () => (
         </div>
         <div className="intro_desc">
           <p className="hello">
-          <span>👋  </span>
-           Hello
-          </p><br /><br /><br />
-           <p>
-           I'm Faizan Alam, a Full Stack Web Developer who loves solving problems and
+           Hello I'm Faizan Alam
+          </p>
+          <br />
+          <p>
+          <Typewriter
+          options={{
+          strings: [
+          "Full Stack Developer",
+          "MERN Stack Developer",
+          "Frontend Developer",
+          "Backend Developer"
+        ],
+        autoStart: true,
+        loop: true,
+        deleteSpeed: 50,  
+        wrapperClassName: 'type-writer'    
+      }}
+    />
+    </p>
+    <br />
+           <p className='bio'>
+            Full Stack Web Developer who loves solving problems and
             building projects. I am equipped with a variety of technologies and tools
              to help me to build the best possible product.
            </p><br /><br />
