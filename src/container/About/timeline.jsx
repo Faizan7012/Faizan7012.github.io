@@ -11,13 +11,13 @@ import SchoolIcon from "@mui/icons-material/School";
 import StarRateIcon from "@mui/icons-material/StarRate";
 
 export const Timeline = () => {
-  const [linecolor, setlinecolor] = React.useState('black')
+  const [linecolor, setlinecolor] = React.useState('#202A44')
   return (
-      <div className="section mainsection">
+      <div className="section mainsection"  id="about">
         <h2 className="section__title" >
           My <span className="different">Timeline 💫</span>
         </h2>
-        <VerticalTimeline lineColor={linecolor}>
+        <VerticalTimeline lineColor={linecolor} class = 'about section'>
           <VerticalTimelineElement
             date={"May 2022 - Present"}
             contentStyle={{

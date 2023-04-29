@@ -16,7 +16,7 @@ const SocialMedia = () => (
       </a>
     </div>
     <div>
-      <a target='_blank' href="https://www.instagram.com/frtoons07/">
+      <a  target='_blank' href="https://www.instagram.com/frtoons07/">
         <BsInstagram />
       </a>
     </div>

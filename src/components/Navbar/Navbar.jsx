@@ -7,12 +7,12 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="app__navbar">
+    <nav className="app__navbar" id="nav-menu">
       <div className="app__navbar-logo">
         <h6 className="name-tag">Faizan Alam</h6>
       </div>
       <ul className="app__navbar-links">
-        {["home", "about", "skills","Projects", "contact","resume"].map((item) => (
+        {["home", "about", "skills","projects", "contact","resume"].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
             <div />
             {
@@ -37,12 +37,12 @@ const Navbar = () => {
           >
             <HiX onClick={() => setToggle(false)} />
             <ul>
-              {["home", "about", "skills","Projects", "contact","resume"].map((item) => (
-                <li key={item}>
+              {["home", "about", "skills","projects", "contact","resume"].map((item) => (
+                <li key={item} class={`nav-link ${item}`}>
                   {
                     item==='resume'?  <a target='_blank' rel="noreferrer" href={resumeDrive}  onClick={() => setToggle(false)}>
                     {item}
-                  </a>:<a href={`#${item}`} onClick={() => setToggle(false)}>
+                  </a>:<a key={item} class={`nav-link ${item}`} href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}
                   </a>
 

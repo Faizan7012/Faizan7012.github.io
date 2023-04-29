@@ -1,25 +1,24 @@
 .form{
     display: flex;
     flex-direction: column;
-    width: 600px;
-    input{
-        padding: 20px 10px;
-        border-radius: 10px;
-        margin-bottom: 30px;
-        font-size: 18px;
-        margin-top: 7px;
-        font-weight: 500;
-        border: none;
-        box-shadow: white 0px 2px 4px;
-
-        &:focus{
-            outline: none;
-        }
-       
-    }
+    width: 500px;
     @media screen and (max-width: 768px) {
         width:300px
      }
+}
+input{
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #040325;
+    margin-top: 20px;
+    font-weight: 500;
+    color:rgb(91, 88, 88);
+    border: none;
+    &:focus{
+        outline: none;
+    }
+   
 }
 
 .required_lable{
@@ -27,15 +26,14 @@
     margin-left: 5px;
 }
 .send_btn{
-    padding: 14px 10px;
-        border-radius: 10px;
+        padding: 10px;
+        border-radius: 5px;
         margin-bottom: 30px;
-        font-size: 20px;
-        margin-top: 7px;
+        margin-top: 20px;
         font-weight: 500;
         border: none;
-        color:cornflowerblue;
-        box-shadow: white 0px 2px 4px;
+        color:white;
+        background-color: #040325;
         div{
             display: flex;
             align-items: center;
@@ -47,4 +45,18 @@
     text-align: center;
     font-weight: 500;
 
+}
+textarea{
+    font-weight: 500;
+    margin-top: 20px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    background-color: #040325;
+    color:rgb(91, 88, 88);
+    &:focus{
+        outline: none;
+    }
 }

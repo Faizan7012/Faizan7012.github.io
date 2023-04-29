@@ -24,215 +24,215 @@ const Skills = () => {
    <>
       <h2 className="head-text">My Skills</h2>
 
-      <div className="app__skills-container">
+      <div className="app__skills-container" id="skills">
         <motion.div className="app__skills-list">
         <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex skills-card"
             >
               <div
-                className="app__flex"
+                className="app__flex skills-card-img"
                 style={{ backgroundColor: 'none' }}
               >
                 <SiJavascript />
               </div>
-              <p className="p-text">JavaScript</p>
+              <p className="p-text skills-card-name" >JavaScript</p>
             </motion.div>
         <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex skills-card"
             >
               <div
-                className="app__flex"
+                className="app__flex skills-card-img"
                 style={{ backgroundColor: 'none' }}
               >
                 <SiHtml5 />
               </div>
-              <p className="p-text">HTML</p>
+              <p className="p-text skills-card-name" >HTML</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex skills-card"
             >
               <div
-                className="app__flex"
+                className="app__flex skills-card-img"
                 style={{ backgroundColor: 'none' }}
               >
                 <SiCss3 />
               </div>
-              <p className="p-text">CSS</p>
+              <p className="p-text skills-card-name" >CSS</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex skills-card"
             >
               <div
-                className="app__flex"
+                className="app__flex skills-card-img"
                 style={{ backgroundColor: 'none' }}
               >
                 <FaReact />
               </div>
-              <p className="p-text">React</p>
+              <p className="p-text skills-card-name" >React</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex skills-card"
             >
               <div
-                className="app__flex"
+                className="app__flex skills-card-img"
                 style={{ backgroundColor: 'none' }}
               >
                 <SiRedux />
               </div>
-              <p className="p-text">Redux</p>
+              <p className="p-text skills-card-name" >Redux</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex skills-card"
             >
               <div
-                className="app__flex"
+                className="app__flex skills-card-img"
                 style={{ backgroundColor: 'none' }}
               >
                 <SiExpress />
               </div>
-              <p className="p-text">Express</p>
+              <p className="p-text skills-card-name" >Express</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex skills-card"
             >
               <div
-                className="app__flex"
+                className="app__flex skills-card-img"
                 style={{ backgroundColor: 'none' }}
               >
                 <FaNodeJs />
               </div>
-              <p className="p-text">Nodejs</p>
+              <p className="p-text skills-card-name" >Nodejs</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex skills-card"
             >
               <div
-                className="app__flex"
+                className="app__flex skills-card-img"
                 style={{ backgroundColor: 'none' }}
               >
                 <DiMongodb />
               </div>
-              <p className="p-text">MongoDB</p>
+              <p className="p-text skills-card-name" >MongoDB</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex skills-card"
             >
               <div
-                className="app__flex"
+                className="app__flex skills-card-img"
                 style={{ backgroundColor: 'none' }}
               >
                 <SiChakraui />
               </div>
-              <p className="p-text">Chakra UI</p>
+              <p className="p-text skills-card-name" >Chakra UI</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex skills-card"
             >
               <div
-                className="app__flex"
+                className="app__flex skills-card-img"
                 style={{ backgroundColor: 'none' }}
               >
                 <SiMaterialui />
               </div>
-              <p className="p-text">Material UI</p>
+              <p className="p-text skills-card-name" >Material UI</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex skills-card"
             >
               <div
-                className="app__flex"
+                className="app__flex skills-card-img"
                 style={{ backgroundColor: 'none' }}
               >
                 <BsBootstrap />
               </div>
-              <p className="p-text">Bootstrap</p>
+              <p className="p-text skills-card-name" >Bootstrap</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex skills-card"
             >
               <div
-                className="app__flex"
+                className="app__flex skills-card-img"
                 style={{ backgroundColor: 'none' }}
               >
                 <SiPostman />
               </div>
-              <p className="p-text">Postman</p>
+              <p className="p-text skills-card-name" >Postman</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex skills-card"
             >
               <div
-                className="app__flex"
+                className="app__flex skills-card-img"
                 style={{ backgroundColor: 'none' }}
               >
                 <VscGithub />
               </div>
-              <p className="p-text">GitHub</p>
+              <p className="p-text skills-card-name" >GitHub</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex skills-card"
             >
               <div
-                className="app__flex"
+                className="app__flex skills-card-img"
                 style={{ backgroundColor: 'none' }}
               >
                 <SiNetlify />
               </div>
-              <p className="p-text">Netlify</p>
+              <p className="p-text skills-card-name" >Netlify</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex skills-card"
             >
               <div
-                className="app__flex"
+                className="app__flex skills-card-img"
                 style={{ backgroundColor: 'none' }}
               >
                 <SiVercel />
               </div>
-              <p className="p-text">Vercel</p>
+              <p className="p-text skills-card-name" >Vercel</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
+              className="app__skills-item app__flex skills-card"
             >
               <div
-                className="app__flex"
+                className="app__flex skills-card-img"
                 style={{ backgroundColor: 'none' }}
               >
                 <DiHeroku />
               </div>
-              <p className="p-text">Heroku</p>
+              <p className="p-text skills-card-name" class="">Heroku</p>
             </motion.div>
         </motion.div>
       </div>
@@ -243,6 +243,7 @@ const Skills = () => {
       </h2><br /><br />
       <div >
       <Githubcalendar
+         class="react-activity-calendar"
           username="Faizan7012 "
           blockSize={15}
           blockMargin={5}
@@ -264,8 +265,9 @@ const Skills = () => {
     </div>
     
     <div className="git-stats">
-    <img alt="Faizan Alam's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Faizan7012&show_icons=true&count_private=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117" />
-    <img alt="Faizan7012's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Faizan7012&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" />
+    <img alt="Faizan Alam's Github Stats"  id="github-stats-card" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Faizan7012&layout=compact&langs_count=5&theme=light" />
+    <img alt="Faizan7012's Top Languages"  id="github-top-langs" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Faizan7012&show_icons=true&theme=light&include_all_commits=true&count_private=true" />
+    <img alt="Faizan7012's streak-stats"   id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=Faizan7012" />
     </div>
 
     </>

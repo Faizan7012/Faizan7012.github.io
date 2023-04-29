@@ -12,16 +12,16 @@ const Footer = () => {
     <>
       <h2 className="head-text">Take a coffee & chat with me</h2>
 
-      <div className="app__footer-cards">
+      <div className="app__footer-cards" id="contact">
         <div className="app__footer-card ">
           <img src={images.email} alt="email" />
-          <a target='_blank' href="mailto:faizanst077@gmail.com" className="p-text">
+          <a target='_blank' href="mailto:faizanst077@gmail.com" className="p-text" id="contact-email">
              faizanst077@gmail.com
           </a>
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
-          <a target='_blank' href="tel:+91 7012241785" className="p-text">
+          <a target='_blank' href="tel:+91 7012241785" className="p-text" id="contact-phone">
             +91 7012241785
           </a>
         </div>
@@ -31,7 +31,7 @@ const Footer = () => {
        <h2 className="head-text">Get In Touch</h2><br /><br /><br />
       <div className="app__social_2" >
      <div>
-      <a className="soc-1-icon" target='_blank' href="https://github.com/Faizan7012">
+      <a  id="contact-github" className="soc-1-icon" target='_blank' href="https://github.com/Faizan7012">
         <GoMarkGithub />
       </a>
     </div>
@@ -46,7 +46,7 @@ const Footer = () => {
       </a>
     </div>
     <div>
-      <a className="soc-4-icon" target='_blank' href="https://www.linkedin.com/in/faizan7012">
+      <a id="contact-linkedin" className="soc-4-icon" target='_blank' href="https://www.linkedin.com/in/faizan7012">
         <SiLinkedin />
       </a>
     </div>

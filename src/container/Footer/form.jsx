@@ -68,8 +68,8 @@ const Submit =async(e)=>{
          <form onSubmit={Submit} className='form'> 
             <input value={info.name} onChange={handleChange} required placeholder= 'Name' name='name' type="text" />
             <input value={info.email} onChange={handleChange} required placeholder='Email' name='email' type="text" />
-            <input value={info.message} onChange={handleChange} required placeholder='message' name='message' type="text" />
-            <button className='send_btn'>{!loading?<div>Send <IoSend fontSize='30px' color='cornflowerblue' /></div>:'Sending ...'}</button>
+            <textarea value={info.message} onChange={handleChange} required placeholder='message' name='message' type='text' ></textarea>
+            <button className='send_btn'>{!loading?<div>Send Mail <IoSend fontSize='20px' color='white' /></div>:'Sending ...'}</button>
          </form><br /><br />
     </>
 }
