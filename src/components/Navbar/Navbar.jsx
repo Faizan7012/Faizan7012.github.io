@@ -13,10 +13,10 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         {["home", "about", "skills","projects", "contact","resume"].map((item) => (
-          <li className="app__flex p-text" key={`link-${item}`}>
+          <li className={`app__flex p-text nav-link ${item}`} key={`link-${item}`}>
             <div />
             {
-                    item==='resume'?  <a target='_blank' rel="noreferrer" href={resumeDrive} onClick={() => setToggle(false)}>
+                    item==='resume'?  <a target='_blank' id="resume-button-1" rel="noreferrer" href={resumeDrive} onClick={() => setToggle(false)}>
                     {item}
                   </a>:<a href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}
@@ -38,11 +38,11 @@ const Navbar = () => {
             <HiX onClick={() => setToggle(false)} />
             <ul>
               {["home", "about", "skills","projects", "contact","resume"].map((item) => (
-                <li key={item} class={`nav-link ${item}`}>
+                <li key={item} className={`app__flex p-text nav-link ${item}`}>
                   {
-                    item==='resume'?  <a target='_blank' rel="noreferrer" href={resumeDrive}  onClick={() => setToggle(false)}>
+                    item==='resume'?  <a target='_blank' id="resume-button-1" download rel="noreferrer" href={resumeDrive}  onClick={() => setToggle(false)}>
                     {item}
-                  </a>:<a key={item} class={`nav-link ${item}`} href={`#${item}`} onClick={() => setToggle(false)}>
+                  </a>:<a key={item}  class={`nav-link ${item}`} href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}
                   </a>
 

@@ -23,7 +23,7 @@ const Projects = () => {
           Projects
         </h2>
         <div className="projects_container"  id="projects">
-          <div class="project-card"  className="project">
+          <div  className="project-card project">
             <div className="project_videocontainer">
               <div>               
                 <img src={medshoppe} alt="medshoppe" />                
@@ -49,7 +49,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span class="project-github-link" type="button" className="btn btn--outline onbt">
+                  <span type="button" className="btn btn--outline onbt project-github-link">
                     See this Live
                   </span>
                 </a>
@@ -58,7 +58,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span class="project-deployed-link" type="button" className="btn btn--outline">
+                  <span type="button" className="btn btn--outline project-deployed-link">
                     View Code
                   </span>
                 </a>
@@ -67,7 +67,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="projects_container">
-          <div class="project-card"  className="project">
+          <div  className="project-card project">
             <div className="project_videocontainer">
               <div>               
                 <img src={aT} alt="Codecov" />                
@@ -93,7 +93,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span class="project-github-link" type="button" className="btn btn--outline onbt">
+                  <span type="button" className="btn btn--outline onbt project-github-link">
                     See this Live
                   </span>
                 </a>
@@ -102,7 +102,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span class="project-deployed-link" type="button" className="btn btn--outline">
+                  <span type="button" className="btn btn--outline project-deployed-link">
                     View Code
                   </span>
                 </a>
@@ -111,7 +111,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="projects_container">
-          <div class="project-card"  className="project">
+          <div  className="project-card project">
             <div className="project_videocontainer">
               <div>               
                 <img src={codecov} alt="Codecov" />                
@@ -135,7 +135,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span class="project-github-link" type="button" className="btn btn--outline onbt">
+                  <span type="button" className="btn btn--outline onbt project-github-link">
                     See this Live
                   </span>
                 </a>
@@ -144,7 +144,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span class="project-deployed-link" type="button" className="btn btn--outline">
+                  <span type="button" className="btn btn--outline project-deployed-link">
                     View Code
                   </span>
                 </a>
@@ -153,7 +153,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="projects_container">
-          <div class="project-card"  className="project">
+          <div  className="project-card project">
             <div className="project_videocontainer">
               <div>
                 <img
@@ -178,7 +178,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span class="project-github-link" type="button" className="btn btn--outline onbt">
+                  <span type="button" className="btn btn--outline onbt project-github-link">
                     See this Live
                   </span>
                 </a>
@@ -187,7 +187,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span class="project-deployed-link" type="button" className="btn btn--outline">
+                  <span type="button" className="btn btn--outline project-deployed-link">
                     View Code
                   </span>
                 </a>
@@ -196,7 +196,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="projects_container">
-          <div class="project-card"  className="project">
+          <div  className="project-card project">
             <div className="project_videocontainer">
               <div>
                 <img
@@ -223,7 +223,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span class="project-github-link" type="button" className="btn btn--outline onbt">
+                  <span type="button" className="btn btn--outline onbt project-github-link">
                     See this Live
                   </span>
                 </a>
@@ -232,7 +232,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span class="project-deployed-link" type="button" className="btn btn--outline">
+                  <span type="button" className="btn btn--outline project-deployed-link">
                     View Code
                   </span>
                 </a>

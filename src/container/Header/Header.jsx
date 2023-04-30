@@ -9,7 +9,7 @@ import "./Header.scss";
 const Header = () => (
        <div className="intro" id="home">
         <div>
-          <img class="home-img" className="faizan_img" src={images.faizan} alt="faizan alam" />
+          <img className="faizan_img home-img" src={images.faizan} alt="faizan alam" />
           <div>
           </div>
         </div>
@@ -35,14 +35,14 @@ const Header = () => (
     />
     </p>
     <br />
-           <p className='bio'  id="user-detail-intro">
+           <p className='bio' id="user-detail-intro">
             Full Stack Web Developer who loves solving problems and
             building projects. I am equipped with a variety of technologies and tools
              to help me to build the best possible product.
            </p><br /><br />
-           <a className="download_cv" id="resume-link-1" href={`${ResumePDF}`} download={'Faizan_Alam_Resume.pdf'}>
+           <a className="download_cv" id="resume-button-2" href={`${ResumePDF}`} download={'Faizan_Alam_Resume.pdf'}>
           <AiOutlineCloudDownload className="resume-download-icon" fontSize='30px'/> 
-          <p className="p-text-resume" id="resume-button-1">Resume</p>
+          <p className="p-text-resume" >Resume</p>
         </a>
         </div>
       </div>

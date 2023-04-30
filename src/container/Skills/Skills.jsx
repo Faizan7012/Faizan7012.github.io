@@ -37,7 +37,7 @@ const Skills = () => {
               >
                 <SiJavascript />
               </div>
-              <p className="p-text skills-card-name" >JavaScript</p>
+              <p className="p-text skills-card-name">JavaScript</p>
             </motion.div>
         <motion.div
               whileInView={{ opacity: [0, 1] }}
@@ -265,9 +265,18 @@ const Skills = () => {
     </div>
     
     <div className="git-stats">
-    <img alt="Faizan Alam's Github Stats"  id="github-stats-card" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Faizan7012&layout=compact&langs_count=5&theme=light" />
-    <img alt="Faizan7012's Top Languages"  id="github-top-langs" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Faizan7012&show_icons=true&theme=light&include_all_commits=true&count_private=true" />
-    <img alt="Faizan7012's streak-stats"   id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=Faizan7012" />
+    <img 
+      alt="Faizan7012's Top Languages"
+       id="github-top-langs"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=Faizan7012&layout=compact&langs_count=5&theme=light"
+       />
+    <img 
+    alt="Faizan Alam's Github Stats"
+      id="github-stats-card"
+     src="https://github-readme-stats.vercel.app/api?username=Faizan7012&show_icons=true&theme=light&include_all_commits=true&count_private=true" />
+   
+    <img alt="Faizan7012's streak-stats" 
+      id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=Faizan7012" />
     </div>
 
     </>
