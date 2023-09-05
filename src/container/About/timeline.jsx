@@ -52,7 +52,7 @@ export const Timeline = () => {
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"June 2019 - June 2020"}
+            date={"Aug 2020 - Aug 2023"}
             contentStyle={{
               boxShadow: `rgba(0,0,0,0.16) 0px 10px 36px 0px,rgba(0,0,0,0.06) 0px 0px 0px 1px`,
               backgroundColor: `#23283e`,
@@ -76,15 +76,15 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               
             >
-                Higher Secondary School Certificate - Science
+                B.Sc Computer Science
             </h4>
             <p >
-               Usman Janta Inter College<br />Amroha, Uttar Pradesh
+               MAH Garhwal University<br />Uttarakhand
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"April 2018 - June 2019"}
+            date={"June 2019 - June 2020"}
             contentStyle={{
               boxShadow: `rgba(0,0,0,0.16) 0px 10px 36px 0px,rgba(0,0,0,0.06) 0px 0px 0px 1px`,
               backgroundColor: `#23283e`,
@@ -102,7 +102,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               
             >
-                Highschool Metric
+               Higher Secondary School Certificate - Science
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -110,7 +110,7 @@ export const Timeline = () => {
             >
             </h4>
             <p >
-              S.Q Higher College<br />Amroha, Uttar Pradesh
+                Usman Janta Inter College<br />Amroha, Uttar Pradesh
             </p>
           </VerticalTimelineElement>
 
